@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setNavType];
     // Do any additional setup after loading the view.
+}
+
+#pragma mark 设置导航图像
+- (void)setNavType
+{
+    self.title = @"行程";
 }
 
 - (void)didReceiveMemoryWarning {

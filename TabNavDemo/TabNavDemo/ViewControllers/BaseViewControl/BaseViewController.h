@@ -10,4 +10,12 @@
 
 @interface BaseViewController : UIViewController
 
+
+- (void)setBageValueForTabbarItemWithIndex:(NSInteger)index andWithValue:(NSInteger)badgeValue;
+
+- (void)setBageValueForTabbarItemWithIndex:(NSInteger)index andWithAddValue:(NSInteger)badgeValue;
+
++ (UIViewController *)presentingVC;
+
+
 @end

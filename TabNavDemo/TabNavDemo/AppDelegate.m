@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,31 @@
 @implementation AppDelegate
 
 
+#pragma mark 设置导航栏
+- (void)customizeInterface {
+    //设置Nav的背景色和title色
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    NSDictionary *textAttributes = @{
+                                     NSFontAttributeName: [UIFont boldSystemFontOfSize:20],
+                                     NSForegroundColorAttributeName: [UIColor whiteColor],
+                                     };
+    [navigationBarAppearance setTintColor:[UIColor whiteColor]];//返回按钮的箭头颜色
+    navigationBarAppearance.backIndicatorTransitionMaskImage = [UIImage imageNamed:@"返回"];
+    navigationBarAppearance.backIndicatorImage = [UIImage imageNamed:@"返回"];//返回按钮的箭头图片
+    [navigationBarAppearance setBarTintColor:xMainColor];
+    [navigationBarAppearance setShadowImage:[UIImage imageWithColor:[UIColor colorWithRed:1 green:0.47 blue:0 alpha:0]]];
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+    //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    [[UITextField appearance] setTintColor:xMainColor];//设置UITextField的光标颜色
+    [[UITextView appearance] setTintColor:xMainColor];//设置UITextView的光标颜色
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self customizeInterface];
+    self.window.backgroundColor = [UIColor whiteColor];
+    MainTabViewController *mtb = [[MainTabViewController alloc] init];
+    self.window.rootViewController = mtb;
     return YES;
 }
 

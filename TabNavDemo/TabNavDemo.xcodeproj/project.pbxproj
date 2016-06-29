@@ -16,6 +16,27 @@
 		73A3EE811D23A60C003E45AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EE7F1D23A60C003E45AD /* LaunchScreen.storyboard */; };
 		73A3EE8C1D23A60C003E45AD /* TabNavDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EE8B1D23A60C003E45AD /* TabNavDemoTests.m */; };
 		73A3EE971D23A60C003E45AD /* TabNavDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EE961D23A60C003E45AD /* TabNavDemoUITests.m */; };
+		73A3EEAB1D23A7EE003E45AD /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEAA1D23A7EE003E45AD /* UIImage+Category.m */; };
+		73A3EEAE1D23A877003E45AD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEAD1D23A877003E45AD /* BaseViewController.m */; };
+		73A3EEB11D23A8C4003E45AD /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEB01D23A8C4003E45AD /* MainTabViewController.m */; };
+		73A3EEB41D23A911003E45AD /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEB31D23A911003E45AD /* IndexViewController.m */; };
+		73A3EEB71D23A91B003E45AD /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEB61D23A91B003E45AD /* MineViewController.m */; };
+		73A3EEBA1D23A925003E45AD /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EEB91D23A925003E45AD /* OrderViewController.m */; };
+		73A3EEC91D23A9AF003E45AD /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEBB1D23A9AF003E45AD /* 首页@2x.png */; };
+		73A3EECA1D23A9AF003E45AD /* 首页@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEBC1D23A9AF003E45AD /* 首页@3x.png */; };
+		73A3EECB1D23A9AF003E45AD /* 首页交互@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEBD1D23A9AF003E45AD /* 首页交互@2x.png */; };
+		73A3EECC1D23A9AF003E45AD /* 首页交互@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEBE1D23A9AF003E45AD /* 首页交互@3x.png */; };
+		73A3EECD1D23A9AF003E45AD /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEBF1D23A9AF003E45AD /* 我的@2x.png */; };
+		73A3EECE1D23A9AF003E45AD /* 我的@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC01D23A9AF003E45AD /* 我的@3x.png */; };
+		73A3EECF1D23A9AF003E45AD /* 我的交互@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC11D23A9AF003E45AD /* 我的交互@2x.png */; };
+		73A3EED01D23A9AF003E45AD /* 我的交互@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC21D23A9AF003E45AD /* 我的交互@3x.png */; };
+		73A3EED11D23A9AF003E45AD /* 行程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC31D23A9AF003E45AD /* 行程@2x.png */; };
+		73A3EED21D23A9AF003E45AD /* 行程@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC41D23A9AF003E45AD /* 行程@3x.png */; };
+		73A3EED31D23A9AF003E45AD /* 行程交互@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC51D23A9AF003E45AD /* 行程交互@2x.png */; };
+		73A3EED41D23A9AF003E45AD /* 行程交互@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC61D23A9AF003E45AD /* 行程交互@3x.png */; };
+		73A3EED51D23A9AF003E45AD /* senbabalogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC71D23A9AF003E45AD /* senbabalogo@2x.png */; };
+		73A3EED61D23A9AF003E45AD /* senbabalogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3EEC81D23A9AF003E45AD /* senbabalogo@3x.png */; };
+		73A3EED91D23AA26003E45AD /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3EED81D23AA26003E45AD /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +74,35 @@
 		73A3EE921D23A60C003E45AD /* TabNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabNavDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A3EE961D23A60C003E45AD /* TabNavDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabNavDemoUITests.m; sourceTree = "<group>"; };
 		73A3EE981D23A60C003E45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A3EEA71D23A6FB003E45AD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		73A3EEA91D23A7EE003E45AD /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		73A3EEAA1D23A7EE003E45AD /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		73A3EEAC1D23A877003E45AD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		73A3EEAD1D23A877003E45AD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		73A3EEAF1D23A8C4003E45AD /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		73A3EEB01D23A8C4003E45AD /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		73A3EEB21D23A911003E45AD /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		73A3EEB31D23A911003E45AD /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		73A3EEB51D23A91B003E45AD /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		73A3EEB61D23A91B003E45AD /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		73A3EEB81D23A925003E45AD /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		73A3EEB91D23A925003E45AD /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		73A3EEBB1D23A9AF003E45AD /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		73A3EEBC1D23A9AF003E45AD /* 首页@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@3x.png"; sourceTree = "<group>"; };
+		73A3EEBD1D23A9AF003E45AD /* 首页交互@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页交互@2x.png"; sourceTree = "<group>"; };
+		73A3EEBE1D23A9AF003E45AD /* 首页交互@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页交互@3x.png"; sourceTree = "<group>"; };
+		73A3EEBF1D23A9AF003E45AD /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
+		73A3EEC01D23A9AF003E45AD /* 我的@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@3x.png"; sourceTree = "<group>"; };
+		73A3EEC11D23A9AF003E45AD /* 我的交互@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的交互@2x.png"; sourceTree = "<group>"; };
+		73A3EEC21D23A9AF003E45AD /* 我的交互@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的交互@3x.png"; sourceTree = "<group>"; };
+		73A3EEC31D23A9AF003E45AD /* 行程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行程@2x.png"; sourceTree = "<group>"; };
+		73A3EEC41D23A9AF003E45AD /* 行程@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行程@3x.png"; sourceTree = "<group>"; };
+		73A3EEC51D23A9AF003E45AD /* 行程交互@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行程交互@2x.png"; sourceTree = "<group>"; };
+		73A3EEC61D23A9AF003E45AD /* 行程交互@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行程交互@3x.png"; sourceTree = "<group>"; };
+		73A3EEC71D23A9AF003E45AD /* senbabalogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "senbabalogo@2x.png"; sourceTree = "<group>"; };
+		73A3EEC81D23A9AF003E45AD /* senbabalogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "senbabalogo@3x.png"; sourceTree = "<group>"; };
+		73A3EED71D23AA26003E45AD /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		73A3EED81D23AA26003E45AD /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +153,9 @@
 		73A3EE6D1D23A60C003E45AD /* TabNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				73A3EEA81D23A7D1003E45AD /* Category */,
+				73A3EEA41D23A6EB003E45AD /* Images */,
+				73A3EEA51D23A6EB003E45AD /* ViewControllers */,
 				73A3EE711D23A60C003E45AD /* AppDelegate.h */,
 				73A3EE721D23A60C003E45AD /* AppDelegate.m */,
 				73A3EE741D23A60C003E45AD /* ViewController.h */,
@@ -113,6 +166,7 @@
 				73A3EE821D23A60C003E45AD /* Info.plist */,
 				73A3EE7A1D23A60C003E45AD /* TabNavDemo.xcdatamodeld */,
 				73A3EE6E1D23A60C003E45AD /* Supporting Files */,
+				73A3EEA71D23A6FB003E45AD /* PrefixHeader.pch */,
 			);
 			path = TabNavDemo;
 			sourceTree = "<group>";
@@ -141,6 +195,63 @@
 				73A3EE981D23A60C003E45AD /* Info.plist */,
 			);
 			path = TabNavDemoUITests;
+			sourceTree = "<group>";
+		};
+		73A3EEA41D23A6EB003E45AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				73A3EEBB1D23A9AF003E45AD /* 首页@2x.png */,
+				73A3EEBC1D23A9AF003E45AD /* 首页@3x.png */,
+				73A3EEBD1D23A9AF003E45AD /* 首页交互@2x.png */,
+				73A3EEBE1D23A9AF003E45AD /* 首页交互@3x.png */,
+				73A3EEBF1D23A9AF003E45AD /* 我的@2x.png */,
+				73A3EEC01D23A9AF003E45AD /* 我的@3x.png */,
+				73A3EEC11D23A9AF003E45AD /* 我的交互@2x.png */,
+				73A3EEC21D23A9AF003E45AD /* 我的交互@3x.png */,
+				73A3EEC31D23A9AF003E45AD /* 行程@2x.png */,
+				73A3EEC41D23A9AF003E45AD /* 行程@3x.png */,
+				73A3EEC51D23A9AF003E45AD /* 行程交互@2x.png */,
+				73A3EEC61D23A9AF003E45AD /* 行程交互@3x.png */,
+				73A3EEC71D23A9AF003E45AD /* senbabalogo@2x.png */,
+				73A3EEC81D23A9AF003E45AD /* senbabalogo@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		73A3EEA51D23A6EB003E45AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				73A3EEA61D23A6EB003E45AD /* BaseViewControl */,
+				73A3EEB21D23A911003E45AD /* IndexViewController.h */,
+				73A3EEB31D23A911003E45AD /* IndexViewController.m */,
+				73A3EEB51D23A91B003E45AD /* MineViewController.h */,
+				73A3EEB61D23A91B003E45AD /* MineViewController.m */,
+				73A3EEB81D23A925003E45AD /* OrderViewController.h */,
+				73A3EEB91D23A925003E45AD /* OrderViewController.m */,
+				73A3EED71D23AA26003E45AD /* OtherViewController.h */,
+				73A3EED81D23AA26003E45AD /* OtherViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		73A3EEA61D23A6EB003E45AD /* BaseViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				73A3EEAC1D23A877003E45AD /* BaseViewController.h */,
+				73A3EEAD1D23A877003E45AD /* BaseViewController.m */,
+				73A3EEAF1D23A8C4003E45AD /* MainTabViewController.h */,
+				73A3EEB01D23A8C4003E45AD /* MainTabViewController.m */,
+			);
+			path = BaseViewControl;
+			sourceTree = "<group>";
+		};
+		73A3EEA81D23A7D1003E45AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				73A3EEA91D23A7EE003E45AD /* UIImage+Category.h */,
+				73A3EEAA1D23A7EE003E45AD /* UIImage+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +358,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A3EE811D23A60C003E45AD /* LaunchScreen.storyboard in Resources */,
+				73A3EED31D23A9AF003E45AD /* 行程交互@2x.png in Resources */,
+				73A3EECB1D23A9AF003E45AD /* 首页交互@2x.png in Resources */,
+				73A3EEC91D23A9AF003E45AD /* 首页@2x.png in Resources */,
+				73A3EED21D23A9AF003E45AD /* 行程@3x.png in Resources */,
+				73A3EED01D23A9AF003E45AD /* 我的交互@3x.png in Resources */,
+				73A3EED61D23A9AF003E45AD /* senbabalogo@3x.png in Resources */,
+				73A3EED41D23A9AF003E45AD /* 行程交互@3x.png in Resources */,
+				73A3EECE1D23A9AF003E45AD /* 我的@3x.png in Resources */,
+				73A3EED11D23A9AF003E45AD /* 行程@2x.png in Resources */,
+				73A3EECD1D23A9AF003E45AD /* 我的@2x.png in Resources */,
+				73A3EECF1D23A9AF003E45AD /* 我的交互@2x.png in Resources */,
+				73A3EECA1D23A9AF003E45AD /* 首页@3x.png in Resources */,
+				73A3EED51D23A9AF003E45AD /* senbabalogo@2x.png in Resources */,
 				73A3EE7E1D23A60C003E45AD /* Assets.xcassets in Resources */,
 				73A3EE791D23A60C003E45AD /* Main.storyboard in Resources */,
+				73A3EECC1D23A9AF003E45AD /* 首页交互@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +399,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A3EE7C1D23A60C003E45AD /* TabNavDemo.xcdatamodeld in Sources */,
+				73A3EEBA1D23A925003E45AD /* OrderViewController.m in Sources */,
+				73A3EED91D23AA26003E45AD /* OtherViewController.m in Sources */,
+				73A3EEAE1D23A877003E45AD /* BaseViewController.m in Sources */,
 				73A3EE761D23A60C003E45AD /* ViewController.m in Sources */,
+				73A3EEB71D23A91B003E45AD /* MineViewController.m in Sources */,
 				73A3EE731D23A60C003E45AD /* AppDelegate.m in Sources */,
 				73A3EE701D23A60C003E45AD /* main.m in Sources */,
+				73A3EEAB1D23A7EE003E45AD /* UIImage+Category.m in Sources */,
+				73A3EEB11D23A8C4003E45AD /* MainTabViewController.m in Sources */,
+				73A3EEB41D23A911003E45AD /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TabNavDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TabNavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Senbaba.TabNavDemo;
@@ -428,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TabNavDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TabNavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Senbaba.TabNavDemo;

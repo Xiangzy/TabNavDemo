@@ -12,4 +12,26 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+
+#import "UIImage+Category.h"
+
+
 #endif /* PrefixHeader_pch */
+
+
+//主色值
+#define xMainColor [UIColor colorWithRed:1 green:0.47 blue:0 alpha:1]
+#define xBackgroundColor [UIColor colorWithRed:0.94 green:0.94 blue:0.94 alpha:1]
+
+
+//常用变量
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define xTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show]
+
+#define xScreen_Bounds [UIScreen mainScreen].bounds
+#define xScreen_Height [UIScreen mainScreen].bounds.size.height
+#define xScreen_Width [UIScreen mainScreen].bounds.size.width
+
+#define xKeyWindow [UIApplication sharedApplication].keyWindow
+
+#define xAPPDeletage (AppDelegate *)[[UIApplication sharedApplication] delegate]
